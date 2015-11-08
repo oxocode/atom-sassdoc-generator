@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Generate SassDoc'
+      'command': 'sassdoc-generator:generate'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'sassdoc-generator'
+      'submenu': [
+        {
+          'label': 'Generate'
+          'command': 'sassdoc-generator:generate'
+        }
+      ]
+    ]
+  }
+]

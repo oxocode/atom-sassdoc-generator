@@ -1,0 +1,18 @@
+{
+  "name": "sassdoc-generator",
+  "main": "./lib/sassdoc-generator",
+  "version": "0.1.0",
+  "description": "Generate SassDoc in project directory.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "sassdoc-generator:generate"
+  },
+  "repository": "https://github.com/oxocode/atom-sassdoc-generator",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
