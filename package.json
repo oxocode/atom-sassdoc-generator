@@ -1,7 +1,7 @@
 {
   "name": "sassdoc-generator",
   "main": "./lib/sassdoc-generator",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Generate SassDoc in project directory.",
   "keywords": [
     "sassdoc",
