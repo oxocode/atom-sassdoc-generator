@@ -3,7 +3,13 @@
   "main": "./lib/sassdoc-generator",
   "version": "0.2.0",
   "description": "Generate SassDoc in project directory.",
-  "keywords": [],
+  "keywords": [
+      "sassdoc",
+      "sass",
+      "scss",
+      "comments",
+      "docbloc"
+  ],
   "activationCommands": {
     "atom-workspace": "sassdoc-generator:generate"
   },
